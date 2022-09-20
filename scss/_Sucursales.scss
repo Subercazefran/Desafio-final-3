@@ -1,21 +1,44 @@
-.donas__div__nosotros{
-    width: 1080px;
-    background-color: grey;
-    border-radius: 5px;
+#titulo{
+    text-align: center;
+    text-decoration:underline
 }
-
 .donas__imagenes__local{
-    width: 30%;
-    height:30%;
+    width: 50%;
+    height: 50%;
+    background-color: #a7ffeb;
+    border-radius: 5px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    .donas__titulo{
+        color: black;
+        text-align: center;
+    }
 }
 .donas__div__local{
-    width: 30%;
-    background-color: grey;
+    width: 50%;
+    background-color: #a7ffeb;
     border-radius: 5px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+     .donas__titulo{
+        color: black;
+        text-align: center;
+     }
+}
+.donas__parrafo{
+    font-size: 1rem;
+    color:black ;
+    padding: 5px;
+    text-align: center;
+
 }
 
-
 .map{
-    width: 40%;
-    
+    width: 40%;  
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
 }

@@ -1,11 +1,13 @@
 body{
-    background-color: bisque;
+    background-color: #ff80ab;
 }
 header{
-    background-color: #11EDE2;
+    background-color: #c94f7c;
 }
 main{
-    background-color:#E01BCD;
+    background-color:#ff80ab
+
+    ;
     .donas{
         display: grid;
         width: 100%;
@@ -32,17 +34,17 @@ main{
 
     .donas__div{
         width: 100%;
-        background-color: #F0C62B;
+        background-color: #a7ffeb;
         border-radius: 5px;
         .donas__titulo{
-            color: #E01BCD;
+            color: black;
             text-align: center;
 
         }
     }
     .donas__parrafo{
         font-size: 1rem;
-        color: white;
+        color:black ;
         padding: 5px;
         text-align: center;
     }

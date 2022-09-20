@@ -1,8 +1,20 @@
-
-
+.img__nosotros{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 57%;
+}
 
 .donas__div__nosotros{
-    width: 100%;
-    background-color: grey;
+    width:57%;
+    background-color: #a7ffeb;
     border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+     .donas__titulo{
+        color: black;
+        text-align: center;
+     }
 }
