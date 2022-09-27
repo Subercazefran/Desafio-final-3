@@ -6,12 +6,17 @@
                              "donas__carta3 donas__carta4";
     }
 
-    .foot{
-        text-align: center; 
-    }
     .donas__imagenes{
         width: 500px;
         height: 500px;
+    }
+
+    .footer-1{
+        width: 100%;
+        grid-template-columns:repeat(1,1fr) ;
+        grid-gap: 30px;
+        padding: 35px 0px;
+        
     }
 }
 
@@ -31,9 +36,14 @@
     }
 
 
-    .foot{
-        text-align: center;
-        margin-left:50%;
+    .footer-1{
+        width: 100%;
+        grid-template-columns:repeat(1,1fr) ;
+        grid-gap: 30px;
+        padding: 35px 0px;        
+        // .red-social{
+            
+        // }
     }
 }
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
