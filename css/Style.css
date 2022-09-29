@@ -8,6 +8,13 @@ header {
 
 main {
   background-color: #ff80ab; }
+  main .logo__donaz {
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px; }
   main .donas {
     display: grid;
     width: 100%;
@@ -135,7 +142,8 @@ main {
   border-radius: 5px;
   display: block;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-top: 2rem; }
   .donas__imagenes__local .donas__titulo {
     color: black;
     text-align: center; }
@@ -187,11 +195,8 @@ main {
     grid-template-areas: "donas__carta1" "donas__carta2" "donas__carta3" "donas__carta4"; }
   .foot {
     text-align: center; }
-  .footer-1 {
-    width: 100%;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 30px;
-    padding: 35px 0px; } }
+  #Img__foot {
+    display: none; } }
 
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 /* // `md` applies to small devices (landscape phones, less than 768px) */
